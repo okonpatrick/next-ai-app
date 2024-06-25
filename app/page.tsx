@@ -89,7 +89,7 @@ export default function Home() {
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            We're integrating more features soon...
+            We&apos;re integrating more features soon...
           </p>
         </a>
       </div>

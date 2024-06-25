@@ -79,7 +79,6 @@ export default function Navbar() {
 
 
 </Link> 
-
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
                   <div>
