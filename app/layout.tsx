@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ChatUi } from "./ChatUi";
+import { ChatUi } from "./pages/chat";
 import { Footer } from "./footer";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,7 @@ export default function RootLayout({
       <div className="lg:ml-64">
      
         {children}
-        <ChatUi/>
+      
           <Footer/>
       </div>
       </body>
