@@ -29,7 +29,6 @@ export const ChatUi = () => {
       setGreeting(getGreeting());
     }, []);
    
-
     const handleCopyClick = () => {
       if (story) {
         const cleanedText = cleanText(story);

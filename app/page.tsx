@@ -12,7 +12,7 @@ export default function Home() {
       </div>
       <div>
      
-      <h2 className="lg:mt-6 mt-16 text-2xl left-0 top-0 flex w-full justify-center bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl  dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">The revolution of Ai is here, with our Next ai app you can prompt one of the world's best Ai models</h2>
+      <h2 className="lg:mt-6 mt-16 text-2xl left-0 top-0 flex w-full justify-center bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl  dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">The revolution of Ai is here, with our Next ai app you can prompt one of the  world&apos;s best Ai models</h2>
     <Link href="#chat">
     <button className="font-bold text-xl pb-16 bg-gradient-to-b mt-10 flex px-4">Get Started!
       <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
