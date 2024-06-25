@@ -69,6 +69,7 @@ async function generateContent(prompt: string): Promise<string> {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
+    setPrompt("")
 
     try {
       const text = await generateContent(prompt);
@@ -192,7 +193,7 @@ async function generateContent(prompt: string): Promise<string> {
 <div className="p-4 sm:ml-64 lg:ml-4">
   <div className="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
     
-    <div className='lg:ml-[300px] ml-32 lg:m-8'>
+    <div className='lg:ml-[400px] ml-32 lg:m-8'>
       <span className="px-6 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">Hello, {greeting}. Ask me anything!</span>
     </div>
 
